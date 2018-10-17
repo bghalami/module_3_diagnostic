@@ -9,4 +9,10 @@ class Search
       Geocoder::Calculations.distance_between([39.7312, -104.9827], [result[:latitude], result[:longitude]])
     end
   end
+
+
+  def pry_me
+    binding.pry
+  end
+  
 end

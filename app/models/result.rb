@@ -1,3 +1,4 @@
+require 'pry'
 class Result
   def initialize(attributes = {})
    @name          = attributes[:station_name]
@@ -10,5 +11,4 @@ class Result
   def fuel_type_conversion
    { ELEC: "Electric", LPG: "Propane" }
   end
-
 end
